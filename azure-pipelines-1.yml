@@ -6,6 +6,8 @@
 trigger:
 - main
 
+pool:
+  vmImage: "windows-latest"
 
 steps:
 - task: Maven@3
